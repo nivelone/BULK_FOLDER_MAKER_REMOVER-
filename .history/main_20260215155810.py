@@ -12,10 +12,9 @@ def mk_dir_bulks(n,folder_name,path):
 
 #Remove dir Bulk
 def remove_dir_bulks(folder_name,path):
-    os.chdir(path) 
     folderlist=os.listdir(path)
     for i in range(len(folderlist)):
-        
+        os.chdir(path) 
         os.rmdir(f"{folder_name} { i+1}")
     print("="*80)    
     print("All Folders Successfully Removed")
