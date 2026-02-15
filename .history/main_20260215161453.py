@@ -23,9 +23,9 @@ def remove_dir_bulks(folder_name,path):
 print("="*80)
 print("Welcome Bulk File Making and Removing".center(80))
 print("="*80)
-print("1. Create bulk folders (specify directory and number)".center(80))
-print("2. Remove directory".center(80))
-print("3. Quit".center(80))
+print(f"{"1. Create bulk folders (specify the directory and number of directory to creat)":<18}")
+print(f"{"2. Remove directory":<18}")
+print(f"{"3.Quit":<18}")
 user=int(input("Enter Your choice : "))
 while user!=3:
     if user==1:
@@ -51,5 +51,9 @@ while user!=3:
 
         
 
-       
+    
+
+# mk_dir_bulks(100,"Practice day","e:/coding-projects/practise/os module introduction/data")
+
+# remove_dir_bulks("Practice day","e:/coding-projects/practise/os module introduction/data")        
  

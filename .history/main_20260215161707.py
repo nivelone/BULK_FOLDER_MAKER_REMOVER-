@@ -51,5 +51,9 @@ while user!=3:
 
         
 
-       
+    
+
+# mk_dir_bulks(100,"Practice day","e:/coding-projects/practise/os module introduction/data")
+
+# remove_dir_bulks("Practice day","e:/coding-projects/practise/os module introduction/data")        
  
