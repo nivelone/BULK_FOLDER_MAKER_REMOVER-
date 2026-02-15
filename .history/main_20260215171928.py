@@ -50,7 +50,7 @@ while True:
         user=int(input("Enter Your choice : "))
     elif user==2:
         name=input("Enter the name of the folder to be removed :")
-        path=input("Give the path were the directory is located :").replace('\\\\', '/')
+        path=input("Give the path were the directory is located :")
         remove_dir_bulks(name,path)
         display_cli()
         user=int(input("Enter Your choice : "))

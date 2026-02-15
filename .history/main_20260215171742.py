@@ -42,15 +42,15 @@ while True:
         print("="*80)
         name=input("Enter the name of the directory :")
         print("="*80)
-        path=input("Give the path where you want to create the directory :").replace('\\\\', '/')
-        
+        path=input("Give the path where you want to create the directory :")
+        path.replace("\ , "/")
         print("="*80)
         mk_dir_bulks(n,name,path)
         display_cli()
         user=int(input("Enter Your choice : "))
     elif user==2:
         name=input("Enter the name of the folder to be removed :")
-        path=input("Give the path were the directory is located :").replace('\\\\', '/')
+        path=input("Give the path were the directory is located :")
         remove_dir_bulks(name,path)
         display_cli()
         user=int(input("Enter Your choice : "))

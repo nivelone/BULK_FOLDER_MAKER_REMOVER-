@@ -7,9 +7,7 @@ def mk_dir_bulks(n,folder_name,path):
     for i in range(0,n):
         
         os.mkdir(f"{path}{folder_name} { i+1}") 
-    print("="*80)
     print("Folder created ! Successfully")  
-    print("="*80)
 
 #Remove dir Bulk
 def remove_dir_bulks(folder_name,path):
@@ -32,27 +30,18 @@ def display_cli():
     print("1. Create bulk folders (specify directory and number)".center(80))
     print("2. Remove directory".center(80))
     print("3. Quit".center(80))
-
-display_cli()
 user=int(input("Enter Your choice : "))
 while True:
     if user==1:
-        print("="*80)
         n=int(input("Enter number of directory to be created :"))
-        print("="*80)
         name=input("Enter the name of the directory :")
-        print("="*80)
-        path=input("Give the path where you want to create the directory :").replace('\\\\', '/')
-        
-        print("="*80)
+        path=input("Give the path where you want to create the directory :")
         mk_dir_bulks(n,name,path)
-        display_cli()
         user=int(input("Enter Your choice : "))
     elif user==2:
         name=input("Enter the name of the folder to be removed :")
-        path=input("Give the path were the directory is located :").replace('\\\\', '/')
+        path=input("Give the path were the directory is located :")
         remove_dir_bulks(name,path)
-        display_cli()
         user=int(input("Enter Your choice : "))
     elif user==3:
         print("="*80)
@@ -63,7 +52,6 @@ while True:
         print("="*80)
         print("Invalid Input! Please choose an option from the given options!.")
         print("="*80)
-        display_cli()
 
         
 
