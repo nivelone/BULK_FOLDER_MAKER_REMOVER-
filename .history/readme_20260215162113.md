@@ -1,0 +1,88 @@
+# 📁 Bulk Folder Creator (Python)
+
+A simple Python CLI tool to create and remove multiple directories at once using the `os` module.
+
+## 🚀 Features
+
+- Create multiple folders at once
+- Remove multiple folders in bulk
+- Command-line interface
+- Beginner-friendly project
+- Built while learning Python OS module
+
+## 🛠 Technologies Used
+
+- Python 3
+- os module
+
+## 📂 How It Works
+
+### 1️⃣ Create Bulk Folders
+
+User specifies:
+
+- Number of folders
+- Folder name
+- Target directory path
+
+Example:
+Practice 1
+Practice 2
+Practice 3
+
+### 2️⃣ Remove Bulk Folders
+
+Removes numbered folders in given directory.
+
+## ▶️ How To Run
+
+```bash
+python filename.py
+
+```
+
+---
+
+# 🧠 Professor Evaluation
+
+For a BCA 2nd year student:
+
+This is GOOD beginner-level system scripting.
+
+It shows:
+
+- You understand loops
+- You understand file system
+- You can structure CLI logic
+- You can combine functions + input handling
+
+You’re moving from:
+
+“Python learner”  
+to  
+“Python builder”
+
+That’s a big shift.
+
+---
+
+# 🔥 Next Level Upgrade
+
+If you want to make this impressive for internships:
+
+Add:
+
+- `try-except`
+- Check if folder exists before creating
+- Use `os.path.join()` instead of manual path building
+- Add confirmation before delete
+- Add argparse (professional CLI argument parsing)
+
+---
+
+Now one important question:
+
+Do you want to stay in simple scripting  
+or move toward backend developer level tools?
+
+Because the next project I give you will decide that.
