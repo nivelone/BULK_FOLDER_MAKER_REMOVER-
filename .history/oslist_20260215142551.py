@@ -1,0 +1,18 @@
+import os
+
+
+
+def remove_files():
+    for i in range(4,100):
+        path=f"e:/coding-projects/practise/os module introduction/data/Tutorial {i}"
+        os.chdir("e:/coding-projects/practise/os module introduction/data")
+        # print(os.getcwd())
+        # # for i in range(2,100):    
+        os.rmdir(path)
+ 
+
+os.chdir("e:/coding-projects/practise/os module introduction/data") 
+# os.mkdir("e:/coding-projects/practise/os module introduction/data/Tutorial 1") 
+
+os.rmdir("e:/coding-projects/practise/os module introduction/data/Tutorial 1")
+ 

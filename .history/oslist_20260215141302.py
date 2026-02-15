@@ -1,0 +1,10 @@
+import os
+
+path="e:/coding-projects/practise/os module introduction/data/Tutorial 1"
+
+os.chdir("e:/coding-projects/practise/os module introduction/data")
+print(os.listdir(path))
+print(os.getcwd())
+for i in range(2,100):
+    print(os.rmdir("e:/coding-projects/practise/os module introduction/data/Tutorial {i}"))
+ 
